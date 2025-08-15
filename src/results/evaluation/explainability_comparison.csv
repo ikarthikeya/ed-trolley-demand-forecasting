@@ -1,0 +1,8 @@
+Model,SHAP_Available,Fallback_Mode,Total_Features,Top_Feature_Importance,Top_5_Concentration,Features_90_Percent,Most_Important_Feature,Explainability_Score,Mean_SHAP_Impact,SHAP_Variability,Feature_Consistency,Explainability_Rank
+Simple_XGBoost,True,False,22,,0.0,0,Year,100.0,0.0,0.0,1.0,1
+Optimized_XGBoost,True,False,22,,0.0,0,Year,100.0,0.0,0.0,1.0,2
+LightGBM,True,False,22,,0.0,0,Year,100.0,0.0,0.0,1.0,3
+Ensemble,True,False,22,,0.0,0,Year,100.0,0.0,0.0,1.0,4
+Baseline_MA_14,True,False,22,,0.0,0,Year,100.0,0.0,0.0,1.0,5
+SARIMA,True,False,22,8.375888817773294,39.51777543914563,12,Ward_Trolleys,60.48222456085437,0.21016892649307414,0.3346483596924678,0.74926102650021,6
+Prophet,True,False,22,9.507090920257289,46.07207146988941,10,Region,53.92792853011059,0.004733114415018075,0.005644738510712429,0.9943869457129842,7

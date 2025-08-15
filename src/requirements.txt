@@ -1,0 +1,22 @@
+# Core dependencies for the unified pipeline
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+joblib>=1.1.0
+
+# Machine learning models
+xgboost>=1.6.0
+lightgbm>=3.3.0
+
+# Optional dependencies (install as needed)
+# shap>=0.41.0  # For explainability analysis
+# prophet>=1.1.0  # For time series forecasting
+# scipy>=1.9.0  # For statistical analysis
+# statsmodels>=0.13.0  # For time series analysis
+# plotly>=5.0.0  # For interactive visualizations
+
+# Development dependencies
+# jupyter>=1.0.0
+# pytest>=7.0.0

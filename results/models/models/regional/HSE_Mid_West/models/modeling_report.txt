@@ -1,0 +1,18 @@
+MODELING PIPELINE REPORT
+==================================================
+Generated: 2025-08-14 15:58:38
+
+MODEL PERFORMANCE
+------------------------------
+            Model       MAE      RMSE        R²      MAPE  Train_MAE  Train_R²       Region
+         Ensemble  7.992447  9.871508  0.364522 19.609877  11.232067  0.494350 HSE Mid West
+   Simple_XGBoost  8.334952 10.564534  0.272163 20.508073   9.834770  0.591277 HSE Mid West
+Optimized_XGBoost  8.356314 10.644606  0.261088 21.524715   9.867229  0.590536 HSE Mid West
+         LightGBM  8.360645 10.304303  0.307578 20.280688   9.975899  0.581992 HSE Mid West
+           SARIMA  9.018315 11.562956  0.128091 23.350520  20.575296 -0.745014 HSE Mid West
+   Baseline_MA_14  9.973589 12.528000 -0.023521 26.028433  15.751513 -0.074419 HSE Mid West
+          Prophet 11.495185 14.399291 -0.352121 29.741789  29.510692 -2.224435 HSE Mid West
+
+CHAMPION MODEL: Ensemble
+MAE: 7.992
+R²: 0.365

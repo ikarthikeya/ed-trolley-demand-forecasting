@@ -1,0 +1,35 @@
+{
+  "pipeline_completed": true,
+  "execution_timestamp": "2025-08-14T15:52:50.321971",
+  "data_processing": {
+    "training_samples": 16766,
+    "test_samples": 4192,
+    "features_engineered": 22
+  },
+  "model_training": {
+    "models_trained": 7,
+    "regional_models": 6,
+    "model_types": [
+      "Simple_XGBoost",
+      "Optimized_XGBoost",
+      "LightGBM",
+      "SARIMA",
+      "Prophet",
+      "Ensemble",
+      "Baseline_MA_14"
+    ]
+  },
+  "evaluation": {
+    "total_models_evaluated": 7,
+    "shap_analysis_completed": 7,
+    "statistical_tests_performed": 21,
+    "evaluation_timestamp": "2025-08-14T15:52:46.261624",
+    "champion_model": {
+      "name": "Simple_XGBoost",
+      "rmse": 0.29076683367413864,
+      "mae": 0.08114457875490189,
+      "r2": 0.999506413936615
+    }
+  },
+  "results_directory": "results"
+}

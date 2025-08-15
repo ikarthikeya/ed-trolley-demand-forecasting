@@ -1,0 +1,18 @@
+MODELING PIPELINE REPORT
+==================================================
+Generated: 2025-08-14 15:50:29
+
+MODEL PERFORMANCE
+------------------------------
+            Model      MAE      RMSE        R²       MAPE  Train_MAE  Train_R²                  Region
+Optimized_XGBoost 4.896844  7.041076  0.525321 116.228686   5.010698  0.795433 HSE Dublin & South East
+         Ensemble 4.930681  6.967114  0.535241 104.339788   6.085712  0.699357 HSE Dublin & South East
+   Simple_XGBoost 5.032536  7.099426  0.517421 119.390715   5.113869  0.786204 HSE Dublin & South East
+         LightGBM 5.292457  7.219713  0.500929 134.274427   5.231577  0.778171 HSE Dublin & South East
+           SARIMA 6.915867 10.435282 -0.042631  77.264704  19.533208 -1.335109 HSE Dublin & South East
+          Prophet 7.366894 10.282083 -0.012242  97.788773  12.778812 -0.353283 HSE Dublin & South East
+   Baseline_MA_14 7.776722 10.245666 -0.005084 115.426999  12.403976 -0.248841 HSE Dublin & South East
+
+CHAMPION MODEL: Optimized_XGBoost
+MAE: 4.897
+R²: 0.525

@@ -1,0 +1,7 @@
+Region,Champion Model,Model MAE,Avg Forecast,Min Forecast,Max Forecast,Forecast Range,Total 14-Day
+Dublin & Midlands,Ensemble,4.447,5.9,1.8,11.9,10.2,83
+Dublin & North East,SARIMA,6.653,2.7,0.0,6.7,6.7,38
+Dublin & South East,Optimized_XGBoost,4.897,4.8,1.6,8.2,6.6,67
+Mid West,Ensemble,7.992,44.3,34.7,52.6,17.9,621
+South West,Ensemble,7.364,5.5,3.5,8.8,5.4,76
+West & North West,Ensemble,6.353,7.7,4.2,10.4,6.1,108
